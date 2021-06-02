@@ -1,0 +1,18 @@
+<p>structural works!</p>
+<p>structural directives</p>
+
+<div *ngIf = "displayName; then thenblock; else elseblock">
+    
+</div>
+
+<ng-template #thenblock>
+    <h2>Hello Expertz</h2>
+</ng-template>
+
+<ng-template #elseblock>
+<div>
+    <h2>Hide name</h2>
+</div>
+</ng-template>
+
+<button (click) = "toggle()">change</button>
